@@ -1,0 +1,33 @@
+.app-downlode {
+  margin: auto auto;
+  margin-top: 100px;
+  font-size: 3vw;
+  text-align: center;
+  font-weight: 600;
+
+}
+
+.app-downlode p {
+  font-size: 3vw;
+  margin-bottom: 10px;
+}
+
+.app-downlode-btns {
+  display: flex;
+  justify-content: center;
+  gap: max(2vw, 10px);
+  margin-top: 40px;
+
+}
+
+.app-downlode-btns img {
+  width: max(30vw, 120px);
+  max-width: 180px;
+  transition: 0.5s;
+  cursor: pointer;
+  transform: 0.5s;
+}
+
+.app-downlode-btns img:hover {
+  transform: scale(1.05);
+}
